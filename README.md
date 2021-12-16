@@ -11,7 +11,7 @@
 4.  [Quickstart Guide](docs/quickstart_guide.md)
 5.  [Tutorials](docs/tutorials/example_tutorial.ipynb)
 6.  [How-Tos](docs/how_tos/example_how_to.ipynb)
-7.  [Asset File Glossary](docs/file-map-and-description.md)
+7.  [Prototype Template File Glossary](docs/file-map-and-description.md)
 8.  [How to Give Feedback](#how-to-give-feedback)
 9.  [Contribution Guidelines](#contribution-guidelines)
 10. [References and Acknowledgements](#references-and-acknowledgements)
