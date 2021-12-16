@@ -28,7 +28,7 @@
 ### How to Give Feedback
 
 We encourage your feedback! You can share your thoughts with us by:
-- [Opening an issue](https://github.com/IBM-Quantum-Prototypes/prototype-template/issues) in the repository
+- [Opening an issue](https://github.com/IBM-Quantum-Prototypes/quantum-prototype-template/issues) in the repository
 
 
 ----------------------------------------------------------------------------------------------------
