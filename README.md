@@ -1,10 +1,9 @@
-<!-- ASSET TEMPLATE -->
 # Quantum Prototype Template
 
-
-<!-- TABLE OF CONTENTS -->
 ### Table of Contents
+
 ##### For Users
+
 1.  [About the Project](docs/project_overview.md)
 2.  [Beginner's Guide](docs/beginners_guide.md)
 3.  [Installation](docs/installation_guide.md)
@@ -18,13 +17,13 @@
 11. [License](#license)
 
 ##### For Developers/Contributors
+
 1. [Contribution Guide](CONTRIBUTING.md)
 2. [Technical Docs](docs/technical_docs.md)
 
 
 ----------------------------------------------------------------------------------------------------
 
-<!-- HOW TO GIVE FEEDBACK -->
 ### How to Give Feedback
 
 We encourage your feedback! You can share your thoughts with us by:
@@ -33,7 +32,6 @@ We encourage your feedback! You can share your thoughts with us by:
 
 ----------------------------------------------------------------------------------------------------
 
-<!-- CONTRIBUTION GUIDELINES -->
 ### Contribution Guidelines
 
 For information on how to contribute to this project, please take a look at our [contribution guidelines](CONTRIBUTING.md).
@@ -41,7 +39,6 @@ For information on how to contribute to this project, please take a look at our 
 
 ----------------------------------------------------------------------------------------------------
 
-<!-- REFERENCES AND ACKNOWLEDGEMENTS -->
 ## References and Acknowledgements
 [1] Divio Documentation Style, Divio Cloud Management
     https://documentation.divio.com
@@ -49,6 +46,5 @@ For information on how to contribute to this project, please take a look at our 
 
 ----------------------------------------------------------------------------------------------------
 
-<!-- LICENSE -->
 ### License
 [Apache License 2.0](LICENSE.txt)
