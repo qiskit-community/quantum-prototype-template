@@ -2,7 +2,7 @@
 
 **We appreciate all kinds of help, so thank you!**
 
-## Contributing to Quantum Kernel Training
+## Contributing to Quantum Prototype Template
 
 Specific details for contributing to this project are outlined below.
 
@@ -10,9 +10,9 @@ Specific details for contributing to this project are outlined below.
 
 Users are encouraged to use Github Issues for reporting issues and requesting features.
 
-### Ask/Answer Questions and Discuss Quantum Kernel Training
+### Ask/Answer Questions and Discuss Quantum Prototype Template
 
-Users are encouraged to use Github Discussions for engaging with researchers, developers, and other users regarding quantum kernel training and the provided examples.
+Users are encouraged to use Github Discussions for engaging with researchers, developers, and other users regarding this quantum prototype and the provided examples.
 
 ### Project Code Style
 

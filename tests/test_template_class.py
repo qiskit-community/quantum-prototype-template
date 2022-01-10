@@ -4,7 +4,7 @@ from unittest import TestCase
 from prototype_template.template_class import TemplateClass
 
 
-class TestAssetsTemplate(TestCase):
+class TestPrototypeTemplate(TestCase):
     """Tests prototype template."""
     def test_template_class(self):
         """Tests template class."""

@@ -4,7 +4,7 @@ The quickstart guide is similar to the beginner's guide. The key difference is t
 
 ## Installation
 
-Explain to the user how to install dependencies and prototype software. It is likely best to just link to the installation guide here.
+Explain to the user how to install dependencies and the quantum prototype. It is likely best to just link to the installation guide here.
 
 ## Usage
 

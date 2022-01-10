@@ -1,6 +1,6 @@
-# Quantum Prototypes Beginner's Guide
+# Quantum Prototype Beginner's Guide
 
-This document should be a one-stop-shop for new prototype users. It should pull together much of the other documentation into a single guide. Prototype users that go through the Beginner's Guide will be given some background on the project and software, walked through the installation process, shown the basics of the API, and given a small example problem to solve.
+This document should be a one-stop-shop for new users of the quantum prototype. It should pull together much of the other documentation into a single guide. Prototype users that go through the Beginner's Guide will be given some background on the project and software, walked through the installation process, shown the basics of the API, and given a small example problem to solve.
 
 ## About the Project
 Give a succinct statement about the project and what problems this software aims to solve. Give light mathematical/scientific justification for the solution, but save the gory details for the project overview document.
