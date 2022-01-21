@@ -40,7 +40,7 @@ For information on how to contribute to this project, please take a look at our 
 ----------------------------------------------------------------------------------------------------
 
 ## References and Acknowledgements
-[1] Diátaxis Technical Documentation Framework
+[1] Diátaxis Technical Documentation Framework \
     https://diataxis.fr/
 
 
