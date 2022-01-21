@@ -40,8 +40,8 @@ For information on how to contribute to this project, please take a look at our 
 ----------------------------------------------------------------------------------------------------
 
 ## References and Acknowledgements
-[1] Divio Documentation Style, Divio Cloud Management
-    https://documentation.divio.com
+[1] Diátaxis Framework (A Systematic Framework for Technical Documentation Authoring)
+    https://diataxis.fr/
 
 
 ----------------------------------------------------------------------------------------------------
