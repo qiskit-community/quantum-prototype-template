@@ -24,5 +24,11 @@
 
 ## References and Acknowledgements
 
-[1] Divio Documentation Style, Divio Cloud Management
-    https://documentation.divio.com
+[1] Diátaxis Technical Documentation Framework \
+    https://diataxis.fr/
+
+
+----------------------------------------------------------------------------------------------------
+
+### License
+[Apache License 2.0](LICENSE.txt)
