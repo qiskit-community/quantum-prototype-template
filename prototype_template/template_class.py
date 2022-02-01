@@ -6,11 +6,15 @@ from typing import Union, List, Optional
 class TemplateClass:
     """Template class for demo purposes."""
 
-    def __init__(self,
-                 some_parameter: Union[int, float, str, bool,
-                                       List[Union[int, float, str, bool]]],
-                 optional_parameter: Optional[Union[int, float, str, bool,
-                                                    List[Union[int, float, str, bool]]]] = None):
+    def __init__(
+        self,
+        some_parameter: Union[
+            int, float, str, bool, List[Union[int, float, str, bool]]
+        ],
+        optional_parameter: Optional[
+            Union[int, float, str, bool, List[Union[int, float, str, bool]]]
+        ] = None,
+    ):
         """TemplateClass
 
         Args:
@@ -23,7 +27,8 @@ class TemplateClass:
     def __repr__(self):
         return f"TemplateClass({self._some_parameter})"
 
-    def multiply(self, parameter: int) -> Union[int, float, str, bool,
-                                                List[Union[int, float, str, bool]]]:
+    def multiply(
+        self, parameter: int
+    ) -> Union[int, float, str, bool, List[Union[int, float, str, bool]]]:
         """Return parameter multiplied by 1."""
         return parameter * self._some_parameter
