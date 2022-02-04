@@ -1,6 +1,14 @@
 name: Code coverage
 
-on: [push]
+on:
+  push:
+    branches:
+      - main
+      - 'stable/**'
+  pull_request:
+    branches:
+      - main
+      - 'stable/**'
 
 jobs:
   coverage:
