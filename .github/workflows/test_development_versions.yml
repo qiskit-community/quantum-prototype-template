@@ -36,7 +36,7 @@ jobs:
           python -m pip install --upgrade pip
           sed -i 's|^\(qiskit[A-Za-z-]*\).*|git+https://github.com/Qiskit/\1|' \
               requirements-dev.txt requirements.txt
-          pip install -r requirements.txt -r requirements-dev.txt
+          pip install tox
       - name: Test using tox environment
         run: |
           tox ${{ env.TOX_ENV }}
