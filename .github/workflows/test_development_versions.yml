@@ -34,8 +34,13 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          sed -i 's|^\(qiskit[A-Za-z-]*\).*|git+https://github.com/Qiskit/\1|' \
-              requirements-dev.txt requirements.txt
+          # First, save the original requirements.txt aside and use
+          # the original in setup.py.
+          cp -a requirements.txt requirements.orig.txt
+          sed -i 's/requirements\.txt/requirements.orig.txt/' setup.py
+          # Second, update requirements[-dev].txt in place to use the
+          # development (git) versions of all Qiskit packages.
+          sed -i 's|^\(qiskit[A-Za-z-]*\).*|git+https://github.com/Qiskit/\1.git|' requirements-dev.txt requirements.txt
           pip install tox
       - name: Test using tox environment
         run: |
