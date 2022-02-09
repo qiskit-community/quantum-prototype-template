@@ -1,6 +1,5 @@
 coverage>=5.5
 pylint>=2.9.5
-tox>=3.24.0
 nbqa>=1.1.1
 treon>=0.1.3
 pytest>=6.2.5
