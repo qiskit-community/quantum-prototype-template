@@ -1,4 +1,4 @@
-name: Tests
+name: Latest Version Tests
 
 on:
   push:
@@ -9,6 +9,8 @@ on:
     branches:
       - main
       - 'stable/**'
+  schedule:
+    - cron: '0 1 * * *'
 
 jobs:
   tests:
@@ -32,7 +34,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt -r requirements-dev.txt
+          pip install tox
       - name: Test using tox environment
         run: |
           tox ${{ env.TOX_ENV }}
