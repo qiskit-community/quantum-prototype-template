@@ -1,4 +1,4 @@
-name: Latest Version Tests
+name: Latest version tests
 
 on:
   push:

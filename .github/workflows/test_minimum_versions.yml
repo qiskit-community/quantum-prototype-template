@@ -1,4 +1,4 @@
-name: Minimum Version Tests
+name: Minimum version tests
 
 on:
   push:
