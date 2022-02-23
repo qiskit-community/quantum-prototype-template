@@ -26,6 +26,7 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
       - name: Set up tox environment
+        shell: bash
         run: |
           pver=${{ matrix.python-version }}
           tox_env="-epy${pver/./}"
