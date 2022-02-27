@@ -45,4 +45,4 @@ jobs:
           pip install tox
       - name: Test using tox environment
         run: |
-          tox ${{ env.TOX_ENV }}
+          tox --pre ${{ env.TOX_ENV }}
