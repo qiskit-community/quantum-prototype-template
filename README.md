@@ -1,13 +1,13 @@
 ![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20macOS%20%7C%20Windows-informational)
 [![Python](https://img.shields.io/badge/Python-3.7%20%7C%203.8%20%7C%203.9%20%7C%203.10-informational)](https://www.python.org/)
 [![Qiskit](https://img.shields.io/badge/Qiskit-%E2%89%A5%200.34.2-6133BD)](https://github.com/Qiskit/qiskit)
-[![License](https://img.shields.io/github/license/IBM-Quantum-Prototypes/quantum-prototype-template?label=License)](https://github.com/IBM-Quantum-Prototypes/quantum-prototype-template/blob/main/LICENSE.txt)
+[![License](https://img.shields.io/github/license/IBM-Quantum-prototypes/quantum-prototype-template?label=License)](https://github.com/IBM-Quantum-prototypes/quantum-prototype-template/blob/main/LICENSE.txt)
 [![Code style: Black](https://img.shields.io/badge/Code%20style-Black-000.svg)](https://github.com/psf/black)
-[![Tests](https://github.com/IBM-Quantum-Prototypes/quantum-prototype-template/actions/workflows/test_latest_versions.yml/badge.svg)](https://github.com/IBM-Quantum-Prototypes/quantum-prototype-template/actions/workflows/test_latest_versions.yml)
+[![Tests](https://github.com/IBM-Quantum-prototypes/quantum-prototype-template/actions/workflows/test_latest_versions.yml/badge.svg)](https://github.com/IBM-Quantum-prototypes/quantum-prototype-template/actions/workflows/test_latest_versions.yml)
 
 # Quantum Prototype Template
 
-This template repository makes creating new Prototype projects much easier for our team. It reduces the overhead of implementing the "bones" of a project -- including package setup, testing, and CI/CD. The code examples in this template repository are written in accordance with pylint style checks, and the sample `prototype_template` module has an associated unit test module. We have also included examples of coverage testing, notebook tests, and notebook lint checks and wrapped all of these using [tox](https://github.com/tox-dev/tox) automated testing software.
+This template repository makes creating new quantum prototype projects much easier for our team. It reduces the overhead of implementing the "bones" of a project -- including package setup, testing, and CI/CD. The code examples in this template repository are written in accordance with pylint style checks, and the sample `prototype_template` module has an associated unit test module. We have also included examples of coverage testing, notebook tests, and notebook lint checks and wrapped all of these using [tox](https://github.com/tox-dev/tox) automated testing software.
 
 We encourage you to use this template repository to begin your own research projects!
 
@@ -38,7 +38,7 @@ We encourage you to use this template repository to begin your own research proj
 ### How to Give Feedback
 
 We encourage your feedback! You can share your thoughts with us by:
-- [Opening an issue](https://github.com/IBM-Quantum-Prototypes/quantum-prototype-template/issues) in the repository
+- [Opening an issue](https://github.com/IBM-Quantum-prototypes/quantum-prototype-template/issues) in the repository
 
 
 ----------------------------------------------------------------------------------------------------
