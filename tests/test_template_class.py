@@ -1,7 +1,7 @@
 """Tests for template."""
 from unittest import TestCase
 
-from prototype_template.template_class import TemplateClass
+from prototype_template import TemplateClass
 
 
 class TestPrototypeTemplate(TestCase):
