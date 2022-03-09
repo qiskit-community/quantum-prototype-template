@@ -1,0 +1,23 @@
+﻿prototype\_template.template\_module.TemplateClass
+==================================================
+
+.. currentmodule:: prototype_template.template_module
+
+.. autoclass:: TemplateClass
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~TemplateClass.__init__
+      ~TemplateClass.multiply
+   
+   
+
+   
+   
+   
