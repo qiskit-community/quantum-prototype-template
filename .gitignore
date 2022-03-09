@@ -47,3 +47,7 @@ coverage.xml
 
 # virtualenv
 ENV/
+
+# Sphinx documentation
+docs/_build/
+docs/stubs/

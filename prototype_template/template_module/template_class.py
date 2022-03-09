@@ -32,9 +32,16 @@ class TemplateClass:
     ) -> Union[int, float, str, bool, List[Union[int, float, str, bool]]]:
         """Return `parameter` multiplied by `some_parameter`.
 
-        >>> from prototype_template.template_class import TemplateClass
-        >>> t = TemplateClass(some_parameter=3)
-        >>> t.multiply(2)
-        6
+        Args:
+            parameter: parameter description
+
+        Returns:
+            `parameter` input multiplied by `some_parameter`
+
+        Example:
+            >>> from prototype_template import TemplateClass
+            >>> t = TemplateClass(some_parameter=3)
+            >>> t.multiply(2)
+            6
         """
         return parameter * self._some_parameter
