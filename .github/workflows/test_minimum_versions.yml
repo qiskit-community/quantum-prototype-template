@@ -23,11 +23,6 @@ jobs:
         uses: actions/setup-python@v1
         with:
           python-version: ${{ matrix.python-version }}
-      - name: Specify tox environment
-        shell: bash
-        run: |
-          pver=${{ matrix.python-version }}
-          echo TOXENV="py${pver/./}" >> $GITHUB_ENV
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
@@ -39,6 +34,11 @@ jobs:
           print(config["tox"]["minversion"])
           EOF
           pip install tox==$(python3 get_tox_minversion.py)
+      - name: Specify tox environment
+        shell: bash
+        run: |
+          pver=${{ matrix.python-version }}
+          echo TOXENV="py${pver/./}" >> $GITHUB_ENV
       - name: Test using tox
         run: |
           tox
