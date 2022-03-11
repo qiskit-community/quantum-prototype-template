@@ -4,6 +4,7 @@
 [![License](https://img.shields.io/github/license/IBM-Quantum-prototypes/quantum-prototype-template?label=License)](https://github.com/IBM-Quantum-prototypes/quantum-prototype-template/blob/main/LICENSE.txt)
 [![Code style: Black](https://img.shields.io/badge/Code%20style-Black-000.svg)](https://github.com/psf/black)
 [![Tests](https://github.com/IBM-Quantum-prototypes/quantum-prototype-template/actions/workflows/test_latest_versions.yml/badge.svg)](https://github.com/IBM-Quantum-prototypes/quantum-prototype-template/actions/workflows/test_latest_versions.yml)
+[![Coverage](https://coveralls.io/repos/github/qiskit-community/quantum-prototype-template/badge.svg?branch=main)](https://coveralls.io/github/qiskit-community/quantum-prototype-template?branch=main)
 
 # Quantum Prototype Template
 
