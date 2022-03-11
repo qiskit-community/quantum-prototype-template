@@ -33,7 +33,7 @@ with open(
     ),
     "r",
 ) as f:
-    release = f.read()
+    release = f.read().strip()
 # The short X.Y version
 version = release
 
