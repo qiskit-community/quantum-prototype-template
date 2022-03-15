@@ -41,6 +41,9 @@ jobs:
           print(config["tox"]["minversion"])
           EOF
           pip install tox==$(python3 get_tox_minversion.py)
+      - name: Modify tox.ini for more thorough check
+        run: |
+          sed -i '/CI:skip-this-line/Id' tox.ini
       - name: Test using tox environment
         run: |
           tox ${{ env.TOX_ENV }}
