@@ -36,11 +36,8 @@ jobs:
           # development (git) versions of all Qiskit packages.
           sed -i 's|^\(qiskit[A-Za-z-]*\).*|git+https://github.com/Qiskit/\1.git|' requirements-dev.txt requirements.txt
           pip install tox
-      - name: Specify tox environment
+      - name: Test using tox environment
         shell: bash
         run: |
           pver=${{ matrix.python-version }}
-          echo TOXENV="py${pver/./}" >> $GITHUB_ENV
-      - name: Test using tox
-        run: |
-          tox
+          tox -epy${pver/./}
