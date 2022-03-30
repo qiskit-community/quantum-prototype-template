@@ -29,6 +29,6 @@ please ensure that:
    
    You can run
    ```shell script
-   make lint
+   tox -elint
    ```
    from the root of the repository clone for lint conformance checks.
