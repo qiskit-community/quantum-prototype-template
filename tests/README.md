@@ -17,7 +17,7 @@ Environments for this repository are configured in [`tox.ini`] as described belo
 The `lint` environment ensures that the code meets basic coding standards, including
 
 - [_Black_] formatting style
-- [mypy] type annotation checker , as configured by [`mypy.ini`]
+- [mypy] type annotation checker, as configured by [`mypy.ini`]
 - [pylint], as configured by [`.pylintrc`]
 
 The _Black_ and mypy passes are applied also to [Jupyter] notebooks (via [nbqa]).
