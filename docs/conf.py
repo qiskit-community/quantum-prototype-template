@@ -17,23 +17,16 @@ Sphinx documentation builder
 """
 
 # General options:
-import os
+from pathlib import Path
 
 project = "Template project"
 copyright = "2022"  # pylint: disable=redefined-builtin
 author = ""
 
+_rootdir = Path(__file__).parent.parent
+
 # The full version, including alpha/beta/rc tags
-with open(
-    os.path.join(
-        os.path.dirname(os.path.abspath(__file__)),
-        "..",
-        "prototype_template",
-        "VERSION.txt",
-    ),
-    "r",
-) as f:
-    release = f.read()
+release = (_rootdir / "prototype_template" / "VERSION.txt").read_text().strip()
 # The short X.Y version
 version = release
 
