@@ -43,4 +43,4 @@ jobs:
           pip install tox==$(python3 get_tox_minversion.py)
       - name: Test using tox environment
         run: |
-          tox ${{ env.TOX_ENV }}
+          tox ${{ env.TOX_ENV }} --skip-missing-interpreters=false
