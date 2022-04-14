@@ -18,7 +18,7 @@ We encourage you to use this template repository to begin your own research proj
 
 1.  [About the Project](docs/project_overview.md)
 2.  [Beginner's Guide](docs/beginners_guide.md)
-3.  [Installation](docs/installation_guide.md)
+3.  [Installation](INSTALL.md)
 4.  [Quickstart Guide](docs/quickstart_guide.md)
 5.  [Tutorials](docs/tutorials/example_tutorial.ipynb)
 6.  [How-Tos](docs/how_tos/example_how_to.ipynb)
