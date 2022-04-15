@@ -39,4 +39,4 @@ jobs:
         shell: bash
         run: |
           pver=${{ matrix.python-version }}
-          tox -epy${pver/./}
+          tox -epy${pver/./} --skip-missing-interpreters=false
