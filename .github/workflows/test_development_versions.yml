@@ -38,6 +38,7 @@ jobs:
           sed -i 's|^\(qiskit[A-Za-z-]*\).*|git+https://github.com/Qiskit/\1.git|' requirements-dev.txt requirements.txt
           pip install tox
       - name: Modify tox.ini for more thorough check
+        shell: bash
         run: |
           sed -i.bak '/#.*CI:\s*skip-next-line/I{N;d;}' tox.ini
           cat tox.ini

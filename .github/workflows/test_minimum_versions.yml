@@ -35,6 +35,7 @@ jobs:
           EOF
           pip install tox==$(python3 get_tox_minversion.py)
       - name: Modify tox.ini for more thorough check
+        shell: bash
         run: |
           sed -i.bak '/#.*CI:\s*skip-next-line/I{N;d;}' tox.ini
           cat tox.ini

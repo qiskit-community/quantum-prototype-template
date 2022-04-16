@@ -36,6 +36,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install tox
       - name: Modify tox.ini for more thorough check
+        shell: bash
         run: |
           sed -i.bak '/#.*CI:\s*skip-next-line/I{N;d;}' tox.ini
           cat tox.ini
