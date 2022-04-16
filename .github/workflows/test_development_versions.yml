@@ -32,10 +32,16 @@ jobs:
           # the original in setup.py.
           cp -a requirements.txt requirements.orig.txt
           sed -i 's/requirements\.txt/requirements.orig.txt/' setup.py
+          echo "include requirements.orig.txt" >> MANIFEST.in
           # Second, update requirements[-dev].txt in place to use the
           # development (git) versions of all Qiskit packages.
           sed -i 's|^\(qiskit[A-Za-z-]*\).*|git+https://github.com/Qiskit/\1.git|' requirements-dev.txt requirements.txt
           pip install tox
+      - name: Modify tox.ini for more thorough check
+        shell: bash
+        run: |
+          sed -i.bak -E '/#.*CI:[[:space:]]*skip-next-line/I{N;d;}' tox.ini
+          cat tox.ini
       - name: Test using tox environment
         shell: bash
         run: |
