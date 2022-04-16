@@ -33,7 +33,7 @@ jobs:
           cp -a requirements.txt requirements.orig.txt
           sed -i 's/requirements\.txt/requirements.orig.txt/' setup.py
           # The following line informs setuptools_scm of the new file
-          git add requirements.orig.txt && git commit -a -m "req.orig.txt"
+          git add requirements.orig.txt && git commit -m "req.orig.txt"
           # Second, update requirements[-dev].txt in place to use the
           # development (git) versions of all Qiskit packages.
           sed -i 's|^\(qiskit[A-Za-z-]*\).*|git+https://github.com/Qiskit/\1.git|' requirements-dev.txt requirements.txt
