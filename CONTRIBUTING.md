@@ -16,7 +16,7 @@ Users are encouraged to use GitHub Discussions for engaging with researchers, de
 
 ### Project Code Style
 
-Code in this repository should conform to PEP8 standards. Style/lint checks are run to validate this. Line length must be limited to no more than 100 characters.
+Code in this repository should conform to PEP8 standards. Style/lint checks are run to validate this. Line length must be limited to no more than 88 characters.
 
 ### Pull Request Checklist
 
@@ -29,6 +29,6 @@ please ensure that:
    
    You can run
    ```shell script
-   make lint
+   tox -elint
    ```
    from the root of the repository clone for lint conformance checks.

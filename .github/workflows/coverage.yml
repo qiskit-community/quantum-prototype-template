@@ -24,7 +24,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install tox coveragepy-lcov
       - name: Run coverage
-        run: tox -ecoverage
+        run: tox -ecoverage --skip-missing-interpreters=false
       - name: Convert to lcov
         run: coveragepy-lcov --output_file_path coveralls.info
       - name: Upload report to Coveralls
