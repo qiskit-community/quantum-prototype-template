@@ -38,7 +38,7 @@ jobs:
       - name: Modify tox.ini for more thorough check
         shell: bash
         run: |
-          sed -i.bak -e '/#.*CI:\s*skip-next-line/I{N;d;}' tox.ini
+          sed -i.bak -E '/#.*CI:\s*skip-next-line/I{N;d;}' tox.ini
           cat tox.ini
       - name: Test using tox environment
         shell: bash
