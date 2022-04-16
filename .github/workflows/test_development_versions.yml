@@ -38,7 +38,7 @@ jobs:
           pip install tox
       - name: Modify tox.ini for more thorough check
         run: |
-          sed -i '/CI:skip-this-line/Id' tox.ini
+          sed -i -e '/#.*CI:\s*skip-next-line/I{n;d;}' tox.ini
       - name: Test using tox environment
         shell: bash
         run: |
