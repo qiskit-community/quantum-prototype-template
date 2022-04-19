@@ -1,9 +1,9 @@
 ![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20macOS%20%7C%20Windows-informational)
 [![Python](https://img.shields.io/badge/Python-3.7%20%7C%203.8%20%7C%203.9%20%7C%203.10-informational)](https://www.python.org/)
 [![Qiskit](https://img.shields.io/badge/Qiskit-%E2%89%A5%200.34.2-6133BD)](https://github.com/Qiskit/qiskit)
-[![License](https://img.shields.io/github/license/IBM-Quantum-prototypes/quantum-prototype-template?label=License)](https://github.com/IBM-Quantum-prototypes/quantum-prototype-template/blob/main/LICENSE.txt)
+[![License](https://img.shields.io/github/license/qiskit-community/quantum-prototype-template?label=License)](https://github.com/qiskit-community/quantum-prototype-template/blob/main/LICENSE.txt)
 [![Code style: Black](https://img.shields.io/badge/Code%20style-Black-000.svg)](https://github.com/psf/black)
-[![Tests](https://github.com/IBM-Quantum-prototypes/quantum-prototype-template/actions/workflows/test_latest_versions.yml/badge.svg)](https://github.com/IBM-Quantum-prototypes/quantum-prototype-template/actions/workflows/test_latest_versions.yml)
+[![Tests](https://github.com/qiskit-community/quantum-prototype-template/actions/workflows/test_latest_versions.yml/badge.svg)](https://github.com/qiskit-community/quantum-prototype-template/actions/workflows/test_latest_versions.yml)
 [![Coverage](https://coveralls.io/repos/github/qiskit-community/quantum-prototype-template/badge.svg?branch=main)](https://coveralls.io/github/qiskit-community/quantum-prototype-template?branch=main)
 
 # Quantum Prototype Template
@@ -39,7 +39,7 @@ We encourage you to use this template repository to begin your own research proj
 ### How to Give Feedback
 
 We encourage your feedback! You can share your thoughts with us by:
-- [Opening an issue](https://github.com/IBM-Quantum-prototypes/quantum-prototype-template/issues) in the repository
+- [Opening an issue](https://github.com/qiskit-community/quantum-prototype-template/issues) in the repository
 
 
 ----------------------------------------------------------------------------------------------------
