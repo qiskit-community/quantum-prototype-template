@@ -26,7 +26,7 @@ please ensure that:
 1. The code follows the _code style_ of this project and successfully
    passes the _unit tests_. Machine Learning uses [Pylint](https://www.pylint.org) and
    [PEP8](https://www.python.org/dev/peps/pep-0008) style guidelines.
-   
+
    You can run
    ```shell script
    tox -elint
