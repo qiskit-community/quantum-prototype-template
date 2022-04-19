@@ -11,10 +11,10 @@ assignees: ''
 
 ### System information
 <!-- Please, provide some information about your system for debugging purposes. -->
-- Device: (e.g. MacBook Pro (16-inch, 2019))
-- OS: (e.g. macOS Monterey version 12.3.1)
-- Python version: (e.g. 3.8.9)
-- Prototype version: (e.g. 1.0.0)
+- Device: <!-- (e.g. MacBook Pro (16-inch, 2019)) -->
+- OS: <!-- (e.g. macOS Monterey version 12.3.1) -->
+- Python version: <!-- (e.g. 3.8.9) -->
+- Prototype version: <!-- (e.g. 1.0.0) -->
 
 
 ### What is the current behavior?
