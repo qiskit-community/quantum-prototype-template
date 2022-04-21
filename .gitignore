@@ -21,14 +21,15 @@ ENV/
 
 
 # UNIT TEST / COVERAGE REPORTS
-htmlcov/
 .tox/
 .coverage
 .coverage.*
-.cache
-nosetests.xml
+htmlcov/
+coverage-html/
 coverage.xml
 *,cover
+.cache
+nosetests.xml
 .hypothesis/
 
 
