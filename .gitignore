@@ -29,6 +29,7 @@ coverage-html/
 coverage.xml
 *,cover
 .cache
+.pytest_cache/
 nosetests.xml
 .hypothesis/
 
