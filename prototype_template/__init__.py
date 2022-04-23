@@ -7,6 +7,6 @@ from .template_module import TemplateClass
 
 try:
     __version__ = metadata_version("prototype_template")
-except PackageNotFoundError:
+except PackageNotFoundError:  # pragma: no cover
     # package is not installed
     pass
