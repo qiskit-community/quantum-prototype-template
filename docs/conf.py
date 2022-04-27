@@ -19,6 +19,8 @@ Sphinx documentation builder
 # General options:
 from pathlib import Path
 
+from importlib_metadata import version as metadata_version
+
 project = "Template project"
 copyright = "2022"  # pylint: disable=redefined-builtin
 author = ""
@@ -26,9 +28,9 @@ author = ""
 _rootdir = Path(__file__).parent.parent
 
 # The full version, including alpha/beta/rc tags
-release = (_rootdir / "prototype_template" / "VERSION.txt").read_text().strip()
+release = metadata_version("prototype_template")
 # The short X.Y version
-version = release
+version = ".".join(release.split(".")[:2])
 
 extensions = [
     "sphinx.ext.napoleon",
