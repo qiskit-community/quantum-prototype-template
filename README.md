@@ -8,7 +8,7 @@
 
 # Quantum Prototype Template
 
-This template repository is a tool for creating Python projects quickly by providing much of the necessary boilerplate code. The code examples in this template repository are written in accordance with pylint style checks, and the sample `prototype_template` module has an associated unit test module. We have also included examples of coverage testing, notebook tests, and notebook lint checks and wrapped all of these using [tox](https://github.com/tox-dev/tox) automated testing software.
+This template repository is a tool for creating Python projects quickly by providing much of the necessary boilerplate code. The code examples in this template repository are written in accordance with pylint style checks, and the sample `prototype_template` module has an associated unit test module. We have also included examples of coverage testing, notebook tests, and notebook lint checks and wrapped all of these using [tox](https://github.com/tox-dev/tox) automated testing software. Check out the [file glossary](https://github.com/qiskit-community/quantum-prototype-template/blob/main/docs/file-map-and-description.md) for more information on each tool used in this repository.
 
 We encourage you to use this template repository to begin your own research projects!
 
