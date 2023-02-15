@@ -26,3 +26,6 @@ jobs:
     - os: linux
       python: 3.9
       env: TOXENV=coverage
+    - os: linux
+      python: 3.9
+      env: TOXENV=ecosystem

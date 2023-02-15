@@ -18,6 +18,7 @@ File descriptions for template
   Name speaks for itself.
 - [CONTRIBUTING.md](../CONTRIBUTING.md) - one of the standard recommendations for GitHub repositories.
   Contributing guidelines for developers.
+- [ecosystem.json](../ecosystem.json) - Qiskit Ecosystem config file needed for adding the project to the [Qiskit Ecosystem](https://github.com/qiskit-community/ecosystem) and see the project on the Qiskit [website](https://qiskit.org/ecosystem).
 - [LICENSE.txt](../LICENSE.txt) - one of the standard requirements for an open source project.
   There are different types of [licenses for software](https://en.wikipedia.org/wiki/Software_license).
   [Most popular open-source licenses](https://opensource.org/licenses).
@@ -27,7 +28,6 @@ File descriptions for template
 - [requirements-dev.txt](../requirements-dev.txt) - list of required 3rd party packages that are
   NOT required to run your project, but which might benefit developers. It can include specific test
   libraries, style checks packages etc.
-- [setup.cfg](../setup.cfg) - configuration metadata for project.
 - [setup.py](../setup.py) - file that tells package managers how to use your project.
   This is the main configuration file for all Python projects.
 - [tests](../tests) - folder where all project tests are located.
