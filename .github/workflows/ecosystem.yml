@@ -1,0 +1,28 @@
+name: Ecosystem json file check
+
+on:
+  push:
+    branches:
+      - main
+      - 'stable/**'
+  pull_request:
+    branches:
+      - main
+      - 'stable/**'
+
+jobs:
+  ecosystem:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+      - name: Install tox
+        run: |
+          python -m pip install --upgrade pip
+          pip install tox
+      - name: Run json check
+        run: tox -eecosystem
