@@ -16,7 +16,7 @@ Environments for this repository are configured in [`tox.ini`] as described belo
 
 The `lint` environment ensures that the code meets basic coding standards, including
 
-- [_Black_] formatting style
+- [_Black_] formatting style, as configured by [`pyproject.toml`]
 - [mypy] type annotation checker, as configured by [`mypy.ini`]
 - [pylint], as configured by [`.pylintrc`]
 
@@ -63,6 +63,7 @@ $ tox -ecoverage
 [`mypy.ini`]: /mypy.ini
 [treon]: https://github.com/ReviewNB/treon
 [_Black_]: https://github.com/psf/black
+[`pyproject.toml`]: /pyproject.toml
 [pylint]: https://github.com/PyCQA/pylint
 [`.pylintrc`]: /.pylintrc
 [nbqa]: https://github.com/nbQA-dev/nbQA

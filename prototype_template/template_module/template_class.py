@@ -8,9 +8,7 @@ class TemplateClass:
 
     def __init__(
         self,
-        some_parameter: Union[
-            int, float, str, bool, List[Union[int, float, str, bool]]
-        ],
+        some_parameter: Union[int, float, str, bool, List[Union[int, float, str, bool]]],
         optional_parameter: Optional[
             Union[int, float, str, bool, List[Union[int, float, str, bool]]]
         ] = None,
