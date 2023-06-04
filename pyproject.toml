@@ -1,10 +1,10 @@
 # file pyproject.toml
+
 [project]
 name = "prototype_template"
 dynamic = [
   "version",
 ]
-# version = "1.0.0"  
 readme = "README.md"
 requires-python = ">=3.7"
 license = {file = "LICENSE.txt"}
@@ -12,12 +12,14 @@ description = "Repository for a quantum prototype"
 authors = [
    { name = "My Name", email = "my.email@email.net"},
 ]
+
 dependencies = [
     "certifi>=2021.5.30",
     "importlib_metadata>=4.8.1",
     "qiskit-aer>=0.10.3",
     "qiskit-terra>=0.19.2",
 ]
+
 [project.optional-dependencies]
 # Dev dependencies.
 dev = [
@@ -37,9 +39,11 @@ dev = [
     # the ~= specifier for it.
     "black[jupyter]~=22.1",
 ]
+
 [project.urls]
 "Homepage" = "https://github.com/qiskit-community/quantum-prototype-template"
 "Bug Tracker" = "https://github.com/qiskit-community/quantum-prototype-template/issues"
+
 [build-system]
 requires = [
     "setuptools>=61.0",
