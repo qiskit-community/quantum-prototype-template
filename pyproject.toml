@@ -3,7 +3,7 @@
 [project]
 name = "prototype_template"
 dynamic = [
-  "version",
+    "version",
 ]
 readme = "README.md"
 requires-python = ">=3.7"
