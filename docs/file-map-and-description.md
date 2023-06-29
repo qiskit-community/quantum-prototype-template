@@ -24,7 +24,7 @@ File descriptions for template
   [Most popular open-source licenses](https://opensource.org/licenses).
 - [README.md](../README.md) - main readme for repository.
 - [docs](../docs) - documentation for repository.
-- [pyproject.toml](../pyproject.toml) - file that contains the build system requirments for your python project
+- [pyproject.toml](../pyproject.toml) - file that contains the build system requirements for your python project.
 - [setup.py](../setup.py) - exists for compatibility with legacy tools.
   This is the main configuration file for all Python projects.
 - [tests](../tests) - folder where all project tests are located.
