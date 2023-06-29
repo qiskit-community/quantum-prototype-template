@@ -29,7 +29,7 @@ File descriptions for template
   NOT required to run your project, but which might benefit developers. It can include specific test
   libraries, style checks packages etc. -->
 - [pyproject.toml](../pyproject.toml) - file that contains the build system requirments for your python project
-- [setup.py](../setup.py) - file that tells package managers how to use your project.
+- [setup.py](../setup.py) - exists for compatibility with legacy tools.
   This is the main configuration file for all Python projects.
 - [tests](../tests) - folder where all project tests are located.
   It is a good practice to cover your project with tests to ensure correctness of implementation.
