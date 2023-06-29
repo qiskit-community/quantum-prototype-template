@@ -10,16 +10,6 @@ This workflow checks that the code is formatted properly and follows the style g
 
 This workflow installs the latest version of tox and runs [the current repository's tests](/tests/#test-py-environments) under each supported Python version on Linux and under a single Python version on macOS and Windows.  This is the primary testing workflow.  It runs for all code changes and additionally once per day, to ensure tests continue to pass as new versions of dependencies are released.
 
-<!-- ## Development version tests (`test_development_versions.yml`)
-
-This workflow installs tox and modifies `requirements.txt` to use the _development_ versions of all Qiskit packages.  For all other packages, the latest version is installed.  This workflow runs on two versions of Python: the minimum supported version and the maximum supported version.  Its purpose is to identify as soon as possible (i.e., before a Qiskit release) when changes in Qiskit will break the current repository.  This workflow runs for all code changes, as well as on a timer once per day.
-
-## Minimum version tests (`test_minimum_versions.yml`)
-
-This workflow first installs the minimum supported tox version (the `minversion` specified in [`tox.ini`](/tox.ini)) and then installs the _minimum_ compatible version of each package listed in `requirements.txt` and `requirements-dev.txt`.  The purpose of this workflow is to make sure the minimum version specifiers in these files are accurate, i.e., that the tests actually pass with these versions.  This workflow uses a single Python version, typically the oldest supported version, as the minimum supported versions of each package may not be compatible with the most recent Python release.
-
-Under the hood, this workflow uses a regular expression to change each `>=` and `~=` specifier in the requirements files to instead be `==`, as pip [does not support](https://github.com/pypa/pip/issues/8085) resolving the minimum versions of packages directly.  Unfortunately, this means that the workflow will only install the minimum version of a package if it is _explicitly_ listed in one of the requirements files with a minimum version.  For instance, a requirements file that simply lists `qiskit>=0.34` will actually install `qiskit==0.34` (i.e., the minimum version of the _meta_-package) along with the latest versions of `qiskit-terra` and `qiskit-aer`, unless their minimum versions are specified explicitly as well. -->
-
 ## Code coverage (`coverage.yml`)
 
 This workflow tests the [coverage environment](/tests/#coverage-environment) on a single version of Python by installing tox and running `tox -ecoverage`.
