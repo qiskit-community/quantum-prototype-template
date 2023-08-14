@@ -55,9 +55,7 @@ modindex_common_prefix = ["template_project."]
 
 # html theme options
 html_title = f"{project} {release}"
-# html_logo = "_static/images/logo.png"
 html_theme = "qiskit-ecosystem"
-html_theme_options = {"sidebar_hide_name": False}
 
 # autodoc/autosummary options
 autosummary_generate = True
