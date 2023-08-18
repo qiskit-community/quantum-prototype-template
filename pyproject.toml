@@ -1,4 +1,5 @@
 # file pyproject.toml
+
 [project]
 name = "prototype_template"
 dynamic = [
@@ -58,4 +59,3 @@ py-modules = []
 [tool.setuptools.packages.find]
 include = ['prototype_template*']
 exclude = ['prototype_template*tests']
-
