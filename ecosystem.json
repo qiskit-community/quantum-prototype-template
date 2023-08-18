@@ -1,20 +1,19 @@
 {
-    "dependencies_files": [
-        "requirements.txt",
-        "requirements-dev.txt"
-    ],
+    "dependencies_files": [],
     "language": {
         "name": "python",
         "versions": ["3.9"]
     },
     "tests_command": [
-        "pytest"
+        "pip check",
+        "python -m pytest -v --doctest-modules"
     ],
     "styles_check_command": [
         "pylint -rn prototype_template tests"
     ],
     "coverages_check_command": [
-        "coverage3 run -m pytest",
+        "coverage3 run --source prototype_template --parallel-mode -m pytest --doctest-modules",
+        "coverage3 combine",
         "coverage3 report --fail-under=80"
     ]
 }
