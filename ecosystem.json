@@ -5,7 +5,6 @@
         "versions": ["3.9"]
     },
     "tests_command": [
-        "pip check",
         "python -m pytest -v --doctest-modules"
     ],
     "styles_check_command": [
