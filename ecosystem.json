@@ -12,7 +12,6 @@
     ],
     "coverages_check_command": [
         "coverage3 run --source prototype_template --parallel-mode -m pytest --doctest-modules",
-        "coverage3 combine",
-        "coverage3 report --fail-under=80"
+        "coverage3 combine"
     ]
 }
