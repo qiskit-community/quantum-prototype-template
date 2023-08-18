@@ -24,7 +24,7 @@ dependencies = [
     "certifi>=2021.5.30",
     "importlib_metadata>=4.8.1",
     "qiskit-aer>=0.10.3",
-    "qiskit-terra>=0.19.2",
+    "qiskit>=0.14.1",
 ]
 
 [project.optional-dependencies]
