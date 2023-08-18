@@ -1,4 +1,6 @@
 # file pyproject.toml
+[tool.setuptools]
+py-modules = []
 
 [project]
 name = "prototype_template"
