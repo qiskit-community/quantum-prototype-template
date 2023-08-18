@@ -1,12 +1,4 @@
 # file pyproject.toml
-[tool.setuptools]
-py-modules = []
-include-package-data = false
-
-[tool.setuptools.packages.find]
-include = ['prototype_template*']
-exclude = ['prototype_template*tests']
-
 [project]
 name = "prototype_template"
 dynamic = [
@@ -59,3 +51,11 @@ requires = [
     "setuptools-scm",
 ]
 build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = []
+
+[tool.setuptools.packages.find]
+include = ['prototype_template*']
+exclude = ['prototype_template*tests']
+
