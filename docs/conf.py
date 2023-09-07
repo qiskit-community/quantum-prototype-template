@@ -43,6 +43,7 @@ extensions = [
     "sphinx_autodoc_typehints",
     "reno.sphinxext",
     "nbsphinx",
+    "qiskit_sphinx_theme",
 ]
 templates_path = ["_templates"]
 numfig = True
@@ -53,8 +54,8 @@ add_module_names = False
 modindex_common_prefix = ["template_project."]
 
 # html theme options
-html_static_path = ["_static"]
-html_logo = "_static/images/logo.png"
+html_title = f"{project} {release}"
+html_theme = "qiskit-ecosystem"
 
 # autodoc/autosummary options
 autosummary_generate = True
