@@ -16,8 +16,8 @@ authors = [
 dependencies = [
     "certifi>=2021.5.30",
     "importlib_metadata>=4.8.1",
-    "qiskit-aer>=0.10.3",
-    "qiskit>=0.14.1",
+    "qiskit-aer>=0.14.0",
+    "qiskit>=1.0 <2",
 ]
 
 [project.optional-dependencies]
